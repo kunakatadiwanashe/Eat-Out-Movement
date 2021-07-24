@@ -1,0 +1,222 @@
+.howwehelp{
+    text-align: center;padding: 20px;
+        .how{
+        color: #F59727;font-family: "regular";font-size: 25px;
+    }
+    h2{font-size: 40px;font-family: "narrow";}
+    .inner{
+      border-radius: 0 45px 45px 45px;position: relative;height: 90vh;
+        .image{
+            
+            img{width: 100%;height: 100%;}
+        }
+        .info{
+            padding: 70px 20px 20px 20px;border-radius: 0 0 50px 50px;position: absolute;top: 100px;width: 100%;
+            box-shadow: 0px 8px 10px gray,  -10px 8px 15px rgba(0, 0, 0, 0.069), 10px 8px 15px gray;
+            h3{
+                font-family: "narrow";font-size: 28px;
+            }
+            p{
+                font-family: "regular";font-size: 18px;padding-bottom: 10px;
+            }
+
+            button{
+                @include btn;@include center;width: 160px;height: 45px;padding-left: 10px;font-size: 16px;margin: 0 auto;
+             }
+        }
+       
+    }
+}
+
+
+@media screen and (min-width:375px){
+
+    .howwehelp{
+        .inner{
+          height: 70vh;
+            .info{
+                h3{
+                   padding: 20px 0 20px 0;
+                }              
+            }
+           
+        }
+    }
+}
+@media screen and (min-width:414px){
+
+    .howwehelp{
+        .inner{
+            .info{
+                h3{
+                   padding: 40px 0 20px 0;
+                }              
+            }
+           
+        }
+    }
+}
+//  landscape
+@media screen and (min-width:568px){
+
+    .howwehelp{
+       
+        .how{
+          font-size: 30px;
+        }
+        h2{font-size: 45px;padding: 10px;}
+        .inner{
+          position: relative;height: 150vh;width: 70%;margin-bottom: 30px;margin: 0 auto;
+            .image{
+              height: 160px;
+            }
+            .info{
+                top: 70px;height: 400px;
+               
+                h3{
+                    font-size: 30px;
+                }
+                p{
+                    font-size: 20x;padding: 10px 20px 20px 20px;
+                }
+    
+                button{
+                    width: 200px;height: 50px;padding-left: 10px;font-size: 20px;
+                 }
+            }
+           
+        }
+    }
+
+}
+// landscape
+
+@media screen and (min-width:768px){
+
+    .howwehelp{
+        padding: 0 50px 0 50px;
+        .how{
+          font-size: 30px;
+        }
+        h2{font-size: 45px;padding: 10px;}
+        .inner{
+          position: relative;height: 90vh;
+            .image{
+              height: 250px;
+            }
+            .info{
+                top: 200px;height: 500px;
+               
+                h3{
+                    font-size: 35px;
+                }
+                p{
+                    font-size: 25px;padding: 10px 20px 40px 20px;
+                }
+    
+                button{
+                    width: 280px;height: 80px;padding-left: 30px;font-size: 25px;
+                    img{
+                        margin-right: 20px;
+                    }
+                 }
+            }
+           
+        }
+    }
+
+}
+
+
+// i-pad 
+@media screen and (min-width:1024px){
+
+    .howwehelp{
+        padding: 0 50px 0 50px;
+        .how{
+          font-size: 30px;width: 100%;
+        }
+        h2{font-size: 45px;padding: 10px;;}
+        .main{
+            display: flex;justify-content: center;
+            .inner{
+                position: relative;height: 90vh;width: 33%;margin: 0 30px 0 30px;
+                  .image{
+                    height: 200px;width: 100%;border-radius: 
+                    img{
+                        object-fit: cover ;border-radius: 0px 60px 60px 60px ;
+                    }
+                  }
+                  .info{
+                      top: 100px;height: 500px;
+                     
+                      h3{
+                          font-size: 30px;
+                      }
+                      p{
+                          font-size: 20px;padding: 0;padding-bottom: 10px;
+                      }
+          
+                      button{
+                          width: 180px;height: 43px;padding-left: 10px;font-size: 18px;
+                          img{
+                              margin-right: 10px;
+                          }
+                       }
+                  }
+                 
+              }
+            
+        }
+    }
+
+}
+
+// desktop
+
+@media screen and (min-width:1200px){
+
+    .howwehelp{
+        padding: 0 50px 0 50px;
+        .how{
+          font-size: 30px;width: 100%;
+        }
+        h2{font-size: 45px;padding: 10px;;}
+        .main{
+            display: flex;justify-content: center;
+            .inner{
+                position: relative;height: 80vh;width: 30%;margin: 0 30px 0 30px;
+                  .image{
+                    height: 200px;width: 100%;border-radius: 
+                    img{
+                        object-fit: cover ;border-radius: 0px 60px 60px 60px ;
+                    }
+                  }
+                  .info{
+                      top: 170px;height: 400px;width: 100%;text-align: center;
+                      h3{
+                          font-size: 30px;padding: 0;
+                      }
+                      p{
+                          font-size: 20px;padding-bottom: 10px;padding: 20px;
+                      }
+          
+                      button{
+                          width: 180px;height: 43px;padding-left: 10px;font-size: 18px;
+                          img{
+                              margin-right: 10px;
+                          }
+                       }
+                  }
+                 
+              }
+            
+        }
+    }
+
+}
+
+
+
+
+

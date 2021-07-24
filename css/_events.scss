@@ -1,0 +1,103 @@
+.events{
+    text-align: center;
+    #about{
+        color: #F59727;font-family: "regular";font-size: 20px;padding: 10px 0 10px 0;
+    }
+    h2{
+        font-family: "narrow";font-size: 30px;padding-bottom: 10px;
+    }
+    p{
+        font-family:"regular";font-size: 16px;padding: 0 15px 15px 15px;
+    }
+
+    .camp{
+        background-image: url(/img/h2-banner01.png);background-position: center;background-size: cover;height: 450px;margin-top: 20px;
+
+        .slideshow{
+            padding: 20px;
+            h4{
+                color: #fff;font-size: 25px;font-family: "narrow";
+            }
+        }
+      .event{
+          text-align: left;display: flex;flex-wrap: wrap;background-color: #fff;height: 250px;border-radius: 0 60px ;padding: 20px;
+          p{width: 50%;;
+         span{color: #F59727;padding-bottom: 20px;}
+        }
+          #cont{
+              width: 100%;padding-top: 20px;
+          }
+      }
+    }
+ 
+}
+
+
+
+.volunteer{
+    margin-top: 150px;display: flex;;justify-content: center;background-image: url(/img/ppl.png);background-position: center top;background-size: contain;background-repeat: no-repeat;;
+    height: 230px;flex-wrap: wrap;
+    h2{
+        font-family: "narrow";font-size: 25px;width: 100%;text-align: center;padding-top: 45px;
+    }
+    button{
+        @include btn;width: 170px;height: 50px;font-size: 16px;display: flex;align-items: center;justify-content: center;
+        img{margin-right: 10px;}
+    }
+}
+
+
+
+
+
+@media screen and (min-width:1024px){
+    .events{
+        #about{
+         font-size: 20px;padding: 10px 0 10px 0;
+        }
+        h2{
+            font-size: 30px;padding-bottom: 10px;
+        }
+        p{
+         font-size: 16px;padding: 0 15px 0 15px;
+        }
+    
+        .camp{
+           display: flex;height: 400px;padding-top: 60px;
+            .slideshow{
+                width: 50%;
+                h4{
+                   font-size: 25px;;width: 70%;padding-left: 40px;
+                }
+            }
+          .event{
+              width: 50%;height: 300px;padding: 20px;margin-top: 150px;box-shadow: 0 2px 8px #000;
+              p{width: 50%;font-size: 20px;
+             span{padding-bottom: 20px;}
+            }
+              #cont{
+                  width: 100%;padding-top: 20px;
+              }
+          }
+        }
+     
+    }
+    
+    
+
+    .volunteer{
+        background-size: cover;;
+        height: 540px;
+        h2{
+            font-size: 35px;padding-top: 130px;
+        }
+        button{
+            @include btn;width: 300px;height: 90px;font-size: 20px;margin-bottom: 90px;
+        
+        }
+    }
+    
+
+
+
+}

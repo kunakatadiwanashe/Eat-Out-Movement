@@ -1,0 +1,90 @@
+.homeless{
+    text-align: center;
+    h2{
+        font-family: "narrow";font-size: 30px;padding-bottom: 10px;
+    }
+    p{
+        font-family:"regular";font-size: 16px;padding: 0 15px 15px 15px;
+    }
+    .containerr{
+        height: 500px;background-image: url(/img/blog07.png);background-position: center;background-size: cover;position: relative;border-radius:  0 60px;margin: 0 20px 0 20px;
+        h6{
+            color: white;font-family: "narrow";font-size: 25px;z-index: 10;
+        }
+        p{
+            color: #fff;;padding-top: 20px;
+            strong{font-size: 30px;}
+        }
+        h3{
+            color: #fff;font-size: 25px;font-family: "narrow";padding-bottom: 10px;
+        }
+        button{
+            @include btn;width: 250px;display: flex;align-items: center;margin: 0 auto;background-color: #F59727 !important;
+        }
+        .overlay{
+            position: absolute;width: 100%;height: 100%;top: 0;left: 0;;background: transparentize($color: #000000, $amount: .4);border-radius:  0 60px
+        }
+
+    }
+}
+
+
+
+@media screen and (min-width:768px){
+    
+    .homeless{
+        h2{
+         padding: 20px;
+        }
+        
+        .containerr{
+            height: 370px;
+            h6{
+               padding: 20px;
+            }
+            p{
+                color: #fff;;padding-top: 20px;
+                strong{font-size: 30px;}
+            }
+            h3{
+                color: #fff;font-size: 25px;font-family: "narrow";padding-bottom: 10px;
+            }
+            button{
+                @include btn;width: 250px;display: flex;align-items: center;margin: 0 auto;
+            }
+            .overlay{
+                position: absolute;width: 100%;height: 100%;top: 0;left: 0;;background: transparentize($color: #000000, $amount: .4);
+            }
+    
+        }
+    }        
+}
+
+
+@media screen and (min-width:1024px){
+    .homeless{
+        
+        .containerr{
+          h6 p h3{
+              margin-left: 263px;text-align: left;padding-left: 0;width: 70%;
+          }
+            button{
+                margin-left: 263px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width:1200px){
+    .homeless{
+        padding-bottom: 90px;
+        .containerr{
+          .kk{
+              margin-left: 263px;text-align: left;padding-left: 0;width: 50%;margin-left: auto;margin-right: 90px;
+          }
+            button{
+                margin-left: auto;
+            }
+        }
+    }
+}
