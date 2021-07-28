@@ -39,6 +39,43 @@ header{
     
 }
 
+
+
+
+@media only screen
+  and (device-width: 375px)
+  and (device-height: 812px)
+   { 
+
+    .banner{
+        height: 60vh; 
+        
+    }
+    
+
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Mobile landscape@568
 @media screen and (min-width:568px){
 
