@@ -271,10 +271,20 @@ header .nav {
   header {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+    padding-left: auto;
+    padding-left: 300px;
   }
   header .log {
     width: 270px;
     height: 90px;
+  }
+  header .nav {
+    display: flex;
+    justify-content: end;
+    margin-left: auto;
+    margin-right: 90px;
   }
 
   .banner {
@@ -328,7 +338,7 @@ header .nav {
     padding-left: 30px;
     display: list-item;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
   }
   header .nav li {
     padding: 12px;
